@@ -5,5 +5,5 @@ import { CicdPipelineStack } from "../lib/cicd-pipeline-stack";
 
 const app = new cdk.App();
 new CicdPipelineStack(app, "CicdPipelineStack", {
-  env: { account: "133562719411", region: "ap-southeast-4" },
+  env: { account: "133562719411", region: "ap-southeast-2" },
 });

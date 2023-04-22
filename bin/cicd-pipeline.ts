@@ -5,7 +5,5 @@ import { CicdPipelineStack } from "../lib/cicd-pipeline-stack";
 
 const app = new cdk.App();
 new CicdPipelineStack(app, "CicdPipelineStack", {
-  /* Uncomment the next line to specialize this stack for the AWS Account
-   * and Region that are implied by the current CLI configuration. */
-  env: { account: process.env.CDK_DEFAULT_ACCOUNT, region: process.env.CDK_DEFAULT_REGION },
+  env: { account: "133562719411", region: "ap-southeast-4" },
 });
